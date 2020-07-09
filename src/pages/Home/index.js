@@ -21,6 +21,15 @@ import ParkedPod1 from "../../components/road/ParkedPod1"
 import ParkedPod2 from "../../components/road/ParkedPod2"
 import StartPod from "../../components/road/StartPod"
 import StartPod2 from "../../components/road/StartPod2"
+import HBuild1 from "../../components/buildings/HBuild/HBuild1"
+import HBuild2 from "../../components/buildings/HBuild/HBuild2"
+import HBuild3 from "../../components/buildings/HBuild/HBuild3"
+import HBuild4 from "../../components/buildings/HBuild/HBuild4"
+import HBuild5 from "../../components/buildings/HBuild/HBuild5"
+import HBuild6 from "../../components/buildings/HBuild/HBuild6"
+import HBuild7 from "../../components/buildings/HBuild/HBuild7"
+import HBuild8 from "../../components/buildings/HBuild/HBuild8"
+import HT from "../../Images/HT.png"
 
 class Home extends Component {
 
@@ -40,10 +49,12 @@ class Home extends Component {
                     <RightTop />
                 </div>
                 <div className="row">
+                    <div className="label1">Habbit</div>
                     <Flipped />
-                    <Filler />
-                    <Filler />
-                    <Filler />
+
+                    <HBuild1 />
+                    <HBuild2 />
+                    <HBuild3 />
                     <Vertical />
                     <Filler />
                     <Filler />
@@ -51,10 +62,11 @@ class Home extends Component {
                     <Vertical />
                 </div>
                 <div className="row">
+                <img src={HT} alt="Flying Pod" className="logo1" />
                     <LeftT />
                     <ParkedPod1 />
-                    <Filler />
-                    <Filler />
+                    <HBuild4 />
+                    <HBuild5 />
                     <Vertical />
                     <Filler />
                     <Filler />
@@ -62,10 +74,11 @@ class Home extends Component {
                     <RightT />
                 </div>
                 <div className="row">
+                <div className="label2">Tracker</div>
                     <Flipped />
-                    <Filler />
-                    <Filler />
-                    <Filler />
+                    <HBuild6 />
+                    <HBuild7 />
+                    <HBuild8 />
                     <Vertical />
                     <Filler />
                     <Filler />

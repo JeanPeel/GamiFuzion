@@ -7,9 +7,12 @@
     justify-content: center;
     margin: 0;
     padding: 0;
+    position: relative;
+  
   }
 
   .row {
+    position: relative;
     width: 100%;
     height: auto;
     display: flex;
@@ -27,3 +30,33 @@
     padding: 0;
   }
 
+  .label1 {
+    font-family: 'Audiowide', cursive;
+    font-size: 56px;
+    position: absolute;
+    left: 17%;
+    top: 18%;
+    z-index: 3;
+    color: #45aac3;
+  }
+
+  .label2 {
+    font-family: 'Audiowide', cursive;
+    font-size: 56px;
+    position: absolute;
+    left: 16%;
+    top: 18%;
+    z-index: 3;
+    color: #45aac3;
+  }
+
+  .logo1 {
+    width: 6%;
+    height: auto;
+    position: static;
+    position: absolute;
+    /* position: relative; */
+    left: 31%;
+    top: 4%;
+    z-index: 4;
+    }

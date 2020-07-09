@@ -19,7 +19,7 @@
 .pod {
     width: 45%;
     height: auto;
-    position: static;
+    /* position: static; */
     position: absolute;
     /* position: relative; */
     left: 55%;
