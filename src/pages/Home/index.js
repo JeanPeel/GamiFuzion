@@ -17,6 +17,10 @@ import Flipped from "../../components/road/Flipped"
 import Flipped2 from "../../components/road/Flipped2"
 import UTurn from "../../components/road/UTurn"
 import UTurn2 from "../../components/road/UTurn2"
+import ParkedPod1 from "../../components/road/ParkedPod1"
+import ParkedPod2 from "../../components/road/ParkedPod2"
+import StartPod from "../../components/road/StartPod"
+import StartPod2 from "../../components/road/StartPod2"
 
 class Home extends Component {
 
@@ -27,7 +31,7 @@ class Home extends Component {
                 <div className="row">
                     <LeftTop />
                     <Horizontal />
-                    <Horizontal />
+                    <StartPod />
                     <Horizontal />
                     <TopT />
                     <Horizontal />
@@ -47,7 +51,51 @@ class Home extends Component {
                     <Vertical />
                 </div>
                 <div className="row">
-                <LeftT />
+                    <LeftT />
+                    <ParkedPod1 />
+                    <Filler />
+                    <Filler />
+                    <Vertical />
+                    <Filler />
+                    <Filler />
+                    <ParkedPod2 />
+                    <RightT />
+                </div>
+                <div className="row">
+                    <Flipped />
+                    <Filler />
+                    <Filler />
+                    <Filler />
+                    <Vertical />
+                    <Filler />
+                    <Filler />
+                    <Filler />
+                    <Vertical />
+                </div>
+                <div className="row">
+                    <LeftT />
+                    <Horizontal />
+                    <Horizontal />
+                    <Horizontal />
+                    <FourWay />
+                    <Horizontal />
+                    <StartPod2 />
+                    <Horizontal />
+                    <RightT />
+                </div>
+                <div className="row">
+                    <Flipped />
+                    <Filler />
+                    <Filler />
+                    <Filler />
+                    <Vertical />
+                    <Filler />
+                    <Filler />
+                    <Filler />
+                    <Vertical />
+                </div>
+                <div className="row">
+                    <LeftT />
                     <UTurn />
                     <Filler />
                     <Filler />
@@ -91,7 +139,7 @@ class Home extends Component {
                     <Vertical />
                 </div>
                 <div className="row">
-                <LeftT />
+                    <LeftT />
                     <UTurn />
                     <Filler />
                     <Filler />
@@ -135,51 +183,7 @@ class Home extends Component {
                     <Vertical />
                 </div>
                 <div className="row">
-                <LeftT />
-                    <UTurn />
-                    <Filler />
-                    <Filler />
-                    <Vertical />
-                    <Filler />
-                    <Filler />
-                    <UTurn2 />
-                    <RightT />
-                </div>
-                <div className="row">
-                    <Flipped />
-                    <Filler />
-                    <Filler />
-                    <Filler />
-                    <Vertical />
-                    <Filler />
-                    <Filler />
-                    <Filler />
-                    <Vertical />
-                </div>
-                <div className="row">
                     <LeftT />
-                    <Horizontal />
-                    <Horizontal />
-                    <Horizontal />
-                    <FourWay />
-                    <Horizontal />
-                    <Horizontal />
-                    <Horizontal />
-                    <RightT />
-                </div>
-                <div className="row">
-                    <Flipped />
-                    <Filler />
-                    <Filler />
-                    <Filler />
-                    <Vertical />
-                    <Filler />
-                    <Filler />
-                    <Filler />
-                    <Vertical />
-                </div>
-                <div className="row">
-                <LeftT />
                     <UTurn />
                     <Filler />
                     <Filler />
