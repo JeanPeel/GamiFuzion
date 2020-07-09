@@ -15,6 +15,8 @@ import LeftT from "../../components/road/LeftT"
 import RightT from "../../components/road/RightT"
 import Flipped from "../../components/road/Flipped"
 import Flipped2 from "../../components/road/Flipped2"
+import UTurn from "../../components/road/UTurn"
+import UTurn2 from "../../components/road/UTurn2"
 
 class Home extends Component {
 
@@ -22,7 +24,7 @@ class Home extends Component {
     render() {
         return (
             <div className="page_body">
-                <div className="row1">
+                <div className="row">
                     <LeftTop />
                     <Horizontal />
                     <Horizontal />
@@ -33,7 +35,7 @@ class Home extends Component {
                     <Horizontal />
                     <RightTop />
                 </div>
-                <div className="row2">
+                <div className="row">
                     <Flipped />
                     <Filler />
                     <Filler />
@@ -44,8 +46,19 @@ class Home extends Component {
                     <Filler />
                     <Vertical />
                 </div>
-                <div className="row2">
-                <Flipped />
+                <div className="row">
+                <LeftT />
+                    <UTurn />
+                    <Filler />
+                    <Filler />
+                    <Vertical />
+                    <Filler />
+                    <Filler />
+                    <UTurn2 />
+                    <RightT />
+                </div>
+                <div className="row">
+                    <Flipped />
                     <Filler />
                     <Filler />
                     <Filler />
@@ -55,18 +68,7 @@ class Home extends Component {
                     <Filler />
                     <Vertical />
                 </div>
-                <div className="row2">
-                <Flipped />
-                    <Filler />
-                    <Filler />
-                    <Filler />
-                    <Vertical />
-                    <Filler />
-                    <Filler />
-                    <Filler />
-                    <Vertical />
-                </div>
-                <div className="row1">
+                <div className="row">
                     <LeftT />
                     <Horizontal />
                     <Horizontal />
@@ -77,8 +79,8 @@ class Home extends Component {
                     <Horizontal />
                     <RightT />
                 </div>
-                <div className="row2">
-                <Flipped />
+                <div className="row">
+                    <Flipped />
                     <Filler />
                     <Filler />
                     <Filler />
@@ -88,8 +90,19 @@ class Home extends Component {
                     <Filler />
                     <Vertical />
                 </div>
-                <div className="row2">
-                <Flipped />
+                <div className="row">
+                <LeftT />
+                    <UTurn />
+                    <Filler />
+                    <Filler />
+                    <Vertical />
+                    <Filler />
+                    <Filler />
+                    <UTurn2 />
+                    <RightT />
+                </div>
+                <div className="row">
+                    <Flipped />
                     <Filler />
                     <Filler />
                     <Filler />
@@ -99,18 +112,7 @@ class Home extends Component {
                     <Filler />
                     <Vertical />
                 </div>
-                <div className="row2">
-                <Flipped />
-                    <Filler />
-                    <Filler />
-                    <Filler />
-                    <Vertical />
-                    <Filler />
-                    <Filler />
-                    <Filler />
-                    <Vertical />
-                </div>
-                <div className="row1">
+                <div className="row">
                     <LeftT />
                     <Horizontal />
                     <Horizontal />
@@ -121,8 +123,8 @@ class Home extends Component {
                     <Horizontal />
                     <RightT />
                 </div>
-                <div className="row2">
-                <Flipped />
+                <div className="row">
+                    <Flipped />
                     <Filler />
                     <Filler />
                     <Filler />
@@ -132,8 +134,19 @@ class Home extends Component {
                     <Filler />
                     <Vertical />
                 </div>
-                <div className="row2">
-                <Flipped />
+                <div className="row">
+                <LeftT />
+                    <UTurn />
+                    <Filler />
+                    <Filler />
+                    <Vertical />
+                    <Filler />
+                    <Filler />
+                    <UTurn2 />
+                    <RightT />
+                </div>
+                <div className="row">
+                    <Flipped />
                     <Filler />
                     <Filler />
                     <Filler />
@@ -143,18 +156,7 @@ class Home extends Component {
                     <Filler />
                     <Vertical />
                 </div>
-                <div className="row2">
-                <Flipped />
-                    <Filler />
-                    <Filler />
-                    <Filler />
-                    <Vertical />
-                    <Filler />
-                    <Filler />
-                    <Filler />
-                    <Vertical />
-                </div>
-                <div className="row1">
+                <div className="row">
                     <LeftT />
                     <Horizontal />
                     <Horizontal />
@@ -165,8 +167,8 @@ class Home extends Component {
                     <Horizontal />
                     <RightT />
                 </div>
-                <div className="row2">
-                <Flipped />
+                <div className="row">
+                    <Flipped />
                     <Filler />
                     <Filler />
                     <Filler />
@@ -176,8 +178,19 @@ class Home extends Component {
                     <Filler />
                     <Vertical />
                 </div>
-                <div className="row2">
-                <Flipped />
+                <div className="row">
+                <LeftT />
+                    <UTurn />
+                    <Filler />
+                    <Filler />
+                    <Vertical />
+                    <Filler />
+                    <Filler />
+                    <UTurn2 />
+                    <RightT />
+                </div>
+                <div className="row">
+                    <Flipped />
                     <Filler />
                     <Filler />
                     <Filler />
@@ -187,18 +200,7 @@ class Home extends Component {
                     <Filler />
                     <Vertical />
                 </div>
-                <div className="row2">
-                <Flipped />
-                    <Filler />
-                    <Filler />
-                    <Filler />
-                    <Vertical />
-                    <Filler />
-                    <Filler />
-                    <Filler />
-                    <Vertical />
-                </div>
-                <div className="row1">
+                <div className="row">
                     <LeftBottom />
                     <Flipped2 />
                     <Flipped2 />
@@ -209,7 +211,6 @@ class Home extends Component {
                     <Flipped2 />
                     <RightBottom />
                 </div>
-               
             </div >
         );
     }
