@@ -2,3 +2,11 @@
     width: 100vw;
     height: auto;
   }
+
+  .row1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
