@@ -6,7 +6,7 @@ function Filler() {
 
   return (
     <div className='road'>
-      <img src={vertical} alt="road piece" className="square" />
+      <img src={filler} alt="road piece" className="square" />
     </div>
   );
 }
