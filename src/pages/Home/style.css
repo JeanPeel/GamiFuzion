@@ -32,7 +32,7 @@
 
   .label1 {
     font-family: 'Audiowide', cursive;
-    font-size: 56px;
+    font-size: 6vw;
     position: absolute;
     left: 17%;
     top: 18%;
@@ -42,9 +42,9 @@
 
   .label2 {
     font-family: 'Audiowide', cursive;
-    font-size: 56px;
+    font-size: 6vw;
     position: absolute;
-    left: 16%;
+    left: 15%;
     top: 18%;
     z-index: 3;
     color: #45aac3;
