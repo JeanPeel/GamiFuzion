@@ -1,5 +1,5 @@
 import React from "react";
-import "../style.css";
+import "../../style.css";
 import nexus2 from "../../../../Images/nexus2.png"
 import grass from "../../../../Images/grass.png"
 

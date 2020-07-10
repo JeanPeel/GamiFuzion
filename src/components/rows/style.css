@@ -16,7 +16,7 @@ font-size: 6vw;
 position: absolute;
 left: 18%;
 top: 16%;
-z-index: 300;
+z-index: 900;
 color: #45aac3;
 }
 
@@ -28,7 +28,7 @@ position: absolute;
 /* position: relative; */
 left: 31%;
 top: 4%;
-z-index: 302;
+z-index: 902;
 }
 
 .label2 {
@@ -37,6 +37,16 @@ font-size: 6vw;
 position: absolute;
 left: 17%;
 top: 16%;
-z-index: 301;
+z-index: 901;
 color: #45aac3;
 }
+
+.label3 {
+    font-family: 'Audiowide', cursive;
+    font-size: 4vw;
+    position: absolute;
+    left: 59%;
+    top: 24%;
+    z-index: 901;
+    color: black
+    }

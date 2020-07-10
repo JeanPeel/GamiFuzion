@@ -10,6 +10,8 @@ import ParkedPod1 from "../../road/ParkedPod1"
 import ParkedPod2 from "../../road/ParkedPod2"
 import RightT from "../../road/RightT"
 import HN from "../../../Images/HN.png"
+import Mall4 from "../../buildings/Mall/Mall4"
+import Mall5 from "../../buildings/Mall/Mall5"
 
 function BuildingRow1b() {
 
@@ -21,8 +23,8 @@ function BuildingRow1b() {
             <Nexus4 />
             <Nexus5 />
             <Vertical />
-            <Filler />
-            <Filler />
+            <Mall4 />
+            <Mall5 />
             <ParkedPod2 />
             <RightT />
         </div>

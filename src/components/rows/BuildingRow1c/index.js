@@ -7,6 +7,9 @@ import Nexus7 from "../../buildings/Nexus/Nexus7"
 import Nexus8 from "../../buildings/Nexus/Nexus8"
 import Vertical from "../../road/Vertical"
 import Filler from "../../road/Filler"
+import Mall6 from "../../buildings/Mall/Mall6"
+import Mall7 from "../../buildings/Mall/Mall7"
+import Mall8 from "../../buildings/Mall/Mall8"
 
 function BuildingRow1c() {
 
@@ -18,9 +21,9 @@ function BuildingRow1c() {
             <Nexus7 />
             <Nexus8 />
             <Vertical />
-            <Filler />
-            <Filler />
-            <Filler />
+            <Mall6 />
+            <Mall7 />
+            <Mall8 />
             <Vertical />
         </div>
     );
