@@ -1,8 +1,8 @@
 import React from "react";
 import "../style.css";
 
-import HBuild4 from "../../buildings/HBuild/HBuild4"
-import HBuild5 from "../../buildings/HBuild/HBuild5"
+import Nexus4 from "../../buildings/Nexus/Nexus4"
+import Nexus5 from "../../buildings/Nexus/Nexus5"
 import Vertical from "../../road/Vertical"
 import Filler from "../../road/Filler"
 import LeftT from "../../road/LeftT"
@@ -18,8 +18,8 @@ function BuildingRow1b() {
             <img src={HN} alt="Flying Pod" className="logo1" />
             <LeftT />
             <ParkedPod1 />
-            <HBuild4 />
-            <HBuild5 />
+            <Nexus4 />
+            <Nexus5 />
             <Vertical />
             <Filler />
             <Filler />

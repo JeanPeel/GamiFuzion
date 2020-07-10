@@ -2,9 +2,9 @@ import React from "react";
 import "../style.css";
 
 import Flipped from "../../road/Flipped"
-import HBuild1 from "../../buildings/HBuild/HBuild1"
-import HBuild2 from "../../buildings/HBuild/HBuild2"
-import HBuild3 from "../../buildings/HBuild/HBuild3"
+import Nexus1 from "../../buildings/Nexus/Nexus1"
+import Nexus2 from "../../buildings/Nexus/Nexus2"
+import Nexus3 from "../../buildings/Nexus/Nexus3"
 import Vertical from "../../road/Vertical"
 import Filler from "../../road/Filler"
 
@@ -14,9 +14,9 @@ function BuildingRow1a() {
         <div className="row">
             <div className="label1">Habit</div>
             <Flipped />
-            <HBuild1 />
-            <HBuild2 />
-            <HBuild3 />
+            <Nexus1 />
+            <Nexus2 />
+            <Nexus3 />
             <Vertical />
             <Filler />
             <Filler />

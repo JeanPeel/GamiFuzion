@@ -1,17 +1,17 @@
 import React from "react";
 import "../style.css";
-import h_build3 from "../../../../Images/h_build3.png"
+import nexus5 from "../../../../Images/nexus5.png"
 import grass from "../../../../Images/grass.png"
 
-function HBuild3() {
+function Nexus5() {
 
   return (
     <div className='block'>
       <img src={grass} alt="road piece" className="grass" />
-      <img src={h_build3} alt="road piece" className="build" />
-      
+      <img src={nexus5} alt="road piece" className="build" />
+
     </div>
   );
 }
 
-export default HBuild3;
+export default Nexus5;
