@@ -34,8 +34,8 @@
     font-family: 'Audiowide', cursive;
     font-size: 6vw;
     position: absolute;
-    left: 17%;
-    top: 18%;
+    left: 18%;
+    top: 16%;
     z-index: 300;
     color: #45aac3;
   }
@@ -44,8 +44,8 @@
     font-family: 'Audiowide', cursive;
     font-size: 6vw;
     position: absolute;
-    left: 15%;
-    top: 18%;
+    left: 17%;
+    top: 16%;
     z-index: 301;
     color: #45aac3;
   }

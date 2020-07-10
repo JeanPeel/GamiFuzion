@@ -29,7 +29,7 @@ import HBuild5 from "../../components/buildings/HBuild/HBuild5"
 import HBuild6 from "../../components/buildings/HBuild/HBuild6"
 import HBuild7 from "../../components/buildings/HBuild/HBuild7"
 import HBuild8 from "../../components/buildings/HBuild/HBuild8"
-import HT from "../../Images/HT.png"
+import HN from "../../Images/HN.png"
 
 class Home extends Component {
 
@@ -49,7 +49,7 @@ class Home extends Component {
                     <RightTop />
                 </div>
                 <div className="row">
-                    <div className="label1">Habbit</div>
+                    <div className="label1">Habit</div>
                     <Flipped />
 
                     <HBuild1 />
@@ -62,7 +62,7 @@ class Home extends Component {
                     <Vertical />
                 </div>
                 <div className="row">
-                <img src={HT} alt="Flying Pod" className="logo1" />
+                <img src={HN} alt="Flying Pod" className="logo1" />
                     <LeftT />
                     <ParkedPod1 />
                     <HBuild4 />
@@ -74,7 +74,7 @@ class Home extends Component {
                     <RightT />
                 </div>
                 <div className="row">
-                <div className="label2">Tracker</div>
+                <div className="label2">Nexus</div>
                     <Flipped />
                     <HBuild6 />
                     <HBuild7 />

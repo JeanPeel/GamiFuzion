@@ -1,0 +1,54 @@
+.row {
+position: relative;
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin: -4px 0 0 0;
+padding: 0;
+}
+
+.label1 {
+font-family: 'Audiowide', cursive;
+font-size: 6vw;
+position: absolute;
+left: 18%;
+top: 16%;
+z-index: 300;
+color: #45aac3;
+}
+
+.logo1 {
+width: 6%;
+height: auto;
+/* position: static; */
+position: absolute;
+/* position: relative; */
+left: 31%;
+top: 4%;
+z-index: 302;
+}
+
+.label2 {
+font-family: 'Audiowide', cursive;
+font-size: 6vw;
+position: absolute;
+left: 17%;
+top: 16%;
+z-index: 301;
+color: #45aac3;
+}
+
+.building_row {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: -4px 0 0 0;
+    padding: 0;
+  }
