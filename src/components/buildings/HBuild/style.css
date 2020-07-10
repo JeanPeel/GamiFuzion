@@ -1,0 +1,27 @@
+.block {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.build {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0; 
+    /* position: static; */
+    z-index: 200;
+}
+
+.grass {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    top: 0;
+}

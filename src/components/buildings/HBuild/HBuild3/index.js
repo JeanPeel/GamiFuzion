@@ -1,12 +1,14 @@
 import React from "react";
-import "./style.css";
+import "../style.css";
 import h_build3 from "../../../../Images/h_build3.png"
+import grass from "../../../../Images/grass.png"
 
 function HBuild3() {
 
   return (
-    <div className='road'>
-      <img src={h_build3} alt="road piece" className="square" />
+    <div className='block'>
+      <img src={h_build3} alt="road piece" className="build" />
+      <img src={grass} alt="road piece" className="grass" />
     </div>
   );
 }

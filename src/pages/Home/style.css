@@ -36,7 +36,7 @@
     position: absolute;
     left: 17%;
     top: 18%;
-    z-index: 3;
+    z-index: 300;
     color: #45aac3;
   }
 
@@ -46,7 +46,7 @@
     position: absolute;
     left: 15%;
     top: 18%;
-    z-index: 3;
+    z-index: 301;
     color: #45aac3;
   }
 
@@ -58,5 +58,5 @@
     /* position: relative; */
     left: 31%;
     top: 4%;
-    z-index: 4;
+    z-index: 302;
     }
