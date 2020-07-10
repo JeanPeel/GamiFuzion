@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "../style.css";
 import left_top from "../../../Images/left_top.png"
 
 function LeftTop() {

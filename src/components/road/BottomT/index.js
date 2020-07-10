@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "../style.css";
 import bottom_T from "../../../Images/bottom_T.png"
 
 function BottomT() {

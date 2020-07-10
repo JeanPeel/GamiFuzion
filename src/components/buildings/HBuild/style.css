@@ -6,15 +6,6 @@
     position: relative;
 }
 
-.build {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0; 
-    /* position: static; */
-    z-index: 200;
-}
-
 .grass {
     width: 100%;
     height: auto;
@@ -22,6 +13,19 @@
     padding: 0;
     position: absolute;
     z-index: 100;
+    top: -5.8vw;
     left: 0;
-    top: 0;
+ 
+}
+
+.build {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0; 
+    position: absolute;
+    z-index: 100;
+    top: -5.8vw;
+    left: 0;
+   
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "../style.css";
 import top_T from "../../../Images/top_T.png"
 
 function TopT() {

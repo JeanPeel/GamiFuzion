@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "../style.css";
 import U_turn2 from "../../../Images/U_turn2.png"
 import Pod4 from "../../../Images/pod4.png"
 

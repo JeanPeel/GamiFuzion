@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "../style.css";
 import horizontal from "../../../Images/horizontal.png"
 import Pod3 from "../../../Images/pod3.png"
 

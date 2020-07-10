@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "../style.css";
 import left_T from "../../../Images/left_T.png"
 
 function LeftT() {

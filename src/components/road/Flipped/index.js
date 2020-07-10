@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "../style.css";
 import flipped from "../../../Images/flipped.png"
 
 function Flipped() {

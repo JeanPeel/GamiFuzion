@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "../style.css";
 import U_turn from "../../../Images/U_turn.png"
 
 function UTurn() {

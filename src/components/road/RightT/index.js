@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "../style.css";
 import right_T from "../../../Images/right_T.png"
 
 function RightT() {

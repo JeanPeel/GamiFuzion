@@ -7,8 +7,9 @@ function HBuild2() {
 
   return (
     <div className='block'>
+       <img src={grass} alt="road piece" className="grass" />
       <img src={h_build2} alt="road piece" className="build" />
-      <img src={grass} alt="road piece" className="grass" />
+     
     </div>
   );
 }

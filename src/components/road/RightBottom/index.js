@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "../style.css";
 import right_bottom from "../../../Images/right_bottom.png"
 
 function RightBottom() {
