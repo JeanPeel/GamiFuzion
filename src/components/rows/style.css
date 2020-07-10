@@ -31,6 +31,28 @@ top: 4%;
 z-index: 902;
 }
 
+.logo2 {
+    width: 26%;
+    height: auto;
+    /* position: static; */
+    position: absolute;
+    /* position: relative; */
+    left: 59.2%;
+    top: 28%;
+    z-index: 902;
+    }
+
+.logo3 {
+    width: 7%;
+    height: auto;
+    /* position: static; */
+    position: absolute;
+    /* position: relative; */
+    left: 78.2%;
+    top: 126%;
+    z-index: 902;
+    }
+
 .label2 {
 font-family: 'Audiowide', cursive;
 font-size: 6vw;
@@ -48,5 +70,16 @@ color: #45aac3;
     left: 59%;
     top: 24%;
     z-index: 901;
-    color: black
+    color:#04867c
     }
+
+.avatar {
+    width: 17%;
+    height: auto;
+    /* position: static; */
+    position: absolute;
+    /* position: relative; */
+    left: 58%;
+    top: -8%;
+    z-index: 902;
+}

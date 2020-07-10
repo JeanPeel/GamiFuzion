@@ -12,17 +12,21 @@ import RightT from "../../road/RightT"
 import HN from "../../../Images/HN.png"
 import Mall4 from "../../buildings/Mall/Mall4"
 import Mall5 from "../../buildings/Mall/Mall5"
+import MallLogoB from "../../../Images/MallLogoB.png"
+import WhitePuff from "../../../Images/white_puff.png"
 
 function BuildingRow1b() {
 
     return (
         <div className="row">
-            <img src={HN} alt="Flying Pod" className="logo1" />
+            <img src={HN} alt="HN Logo" className="logo1" />
             <LeftT />
             <ParkedPod1 />
             <Nexus4 />
             <Nexus5 />
             <Vertical />
+            <img src={MallLogoB} alt="HN Logo" className="logo3" />
+            <img src={WhitePuff} alt="HN Logo" className="avatar" />
             <Mall4 />
             <Mall5 />
             <ParkedPod2 />

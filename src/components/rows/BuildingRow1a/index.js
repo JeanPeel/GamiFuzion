@@ -6,7 +6,7 @@ import Nexus1 from "../../buildings/Nexus/Nexus1"
 import Nexus2 from "../../buildings/Nexus/Nexus2"
 import Nexus3 from "../../buildings/Nexus/Nexus3"
 import Vertical from "../../road/Vertical"
-import Filler from "../../road/Filler"
+import MallLogo from "../../../Images/MallLogo.png"
 import Mall1 from "../../buildings/Mall/Mall1"
 import Mall2 from "../../buildings/Mall/Mall2"
 import Mall3 from "../../buildings/Mall/Mall3"
@@ -21,7 +21,8 @@ function BuildingRow1a() {
             <Nexus2 />
             <Nexus3 />
             <Vertical />
-            <div className="label3">Avatar Mall</div>
+            <img src={MallLogo} alt="Avatar Logo" className="logo2" />
+            {/* <div className="label3">Avatar Mall</div> */}
             <Mall1 />
             <Mall2 />
             <Mall3 />
