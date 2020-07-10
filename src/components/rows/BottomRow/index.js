@@ -5,6 +5,9 @@ import LeftBottom from "../../road/LeftBottom"
 import Flipped2 from "../../road/Flipped2"
 import BottomT from "../../road/BottomT"
 import RightBottom from "../../road/RightBottom"
+import StartPod3 from "../../road/StartPod3"
+import StartPod4 from "../../road/StartPod4"
+
 
 function BottomRow() {
 
@@ -12,12 +15,12 @@ function BottomRow() {
         <div className='row'>
             <LeftBottom />
             <Flipped2 />
-            <Flipped2 />
+            <StartPod3 />
             <Flipped2 />
             <BottomT />
             <Flipped2 />
             <Flipped2 />
-            <Flipped2 />
+            <StartPod4 />
             <RightBottom />
 
         </div>

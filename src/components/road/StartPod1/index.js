@@ -3,7 +3,7 @@ import "../style.css";
 import horizontal from "../../../Images/horizontal.png"
 import Pod1 from "../../../Images/pod1.png"
 
-function StartPod() {
+function StartPod1() {
 
   return (
     <div className='road'>
@@ -13,4 +13,4 @@ function StartPod() {
   );
 }
 
-export default StartPod;
+export default StartPod1;

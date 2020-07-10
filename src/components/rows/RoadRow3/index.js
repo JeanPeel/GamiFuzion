@@ -3,11 +3,11 @@ import "../style.css";
 
 import FourWay from "../../road/FourWay"
 import Horizontal from "../../road/Horizontal"
-import StartPod2 from "../../road/StartPod2"
+import StartPod1 from "../../road/StartPod1"
 import LeftT from "../../road/LeftT"
 import RightT from "../../road/RightT"
 
-function RoadRow() {
+function RoadRow3() {
 
     return (
         <div className='row'>
@@ -16,8 +16,8 @@ function RoadRow() {
             <Horizontal />
             <Horizontal />
             <FourWay />
+            <StartPod1 />
             <Horizontal />
-            <StartPod2 />
             <Horizontal />
             <RightT />
 
@@ -25,4 +25,4 @@ function RoadRow() {
     );
 }
 
-export default RoadRow;
+export default RoadRow3;
