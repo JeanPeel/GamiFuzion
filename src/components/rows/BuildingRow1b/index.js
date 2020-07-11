@@ -13,7 +13,7 @@ import HN from "../../../Images/HN.png"
 import Mall4 from "../../buildings/Mall/Mall4"
 import Mall5 from "../../buildings/Mall/Mall5"
 import MallLogoB from "../../../Images/MallLogoB.png"
-import WhitePuff from "../../../Images/white_puff.png"
+// import DancingWhite from "../../../Images/DancingWhite.gif"
 
 function BuildingRow1b() {
 
@@ -26,7 +26,7 @@ function BuildingRow1b() {
             <Nexus5 />
             <Vertical />
             <img src={MallLogoB} alt="HN Logo" className="logo3" />
-            <img src={WhitePuff} alt="HN Logo" className="avatar" />
+            <img src={require("../../../Images/DancingWhite.gif")} alt="dancing white puff ball" className="avatar" />
             <Mall4 />
             <Mall5 />
             <ParkedPod2 />
